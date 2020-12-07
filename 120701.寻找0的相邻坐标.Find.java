@@ -13,20 +13,20 @@ public class Find2 {
 		for (int row = 0; row < array2d.length; row++) {
 			for (int i = 0; i < array2d[0].length; i++) {
 				if (row==1 && i==4) {
-					System.out.println("R_zero："+array2d[row][i]);
-				}
-				if (row==0&& i==4) {
-					System.out.println("R_zero上："+array2d[row][i]);
-				}
-				if (row==1 && i==3) {
-					System.out.println("R_zero左："+array2d[row][i]);
-				}
-				if (row==2 && i==4) {
-					System.out.println("R_zero下："+array2d[row][i]);
-				}
-				if (row==1 && i==5) {
-					System.out.println("R_zero右："+array2d[row][i]);
-				}
+						System.out.print("        R_zero目标："+array2d[row][i]);
+					}
+					if (row==0&& i==4) {
+						System.out.println("                    R_zero上："+array2d[row][i]);
+					}
+					if (row==1 && i==3) {
+						System.out.print("R_zero左："+array2d[row][i]);
+					}
+					if (row==2 && i==4) {
+						System.out.println("                    R_zero下："+array2d[row][i]);
+					}
+					if (row==1 && i==5) {
+						System.out.println("      R_zero右："+array2d[row][i]);
+					}
 				
 			}
 			
